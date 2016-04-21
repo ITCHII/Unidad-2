@@ -2,5 +2,9 @@
     {
         "merged": "C:\\proyectos\\GatoLeonSound\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\proyectos\\GatoLeonSound\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\proyectos\\unidad2\\GatoLeonSound\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\proyectos\\unidad2\\GatoLeonSound\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

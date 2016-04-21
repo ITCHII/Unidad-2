@@ -11,15 +11,13 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="raul.gatoleonsound.MainActivity"
     tools:showIn="@layout/activity_main">
-
     <Button
         android:id="@+id/btnCat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cat"
         android:onClick="Cat"
-        android:layout_gravity="center_vertical" />
-
+       />
     <Button
         android:id="@+id/btnLion"
         android:layout_width="wrap_content"

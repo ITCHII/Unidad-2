@@ -27,40 +27,40 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void destruir(){
+    public void NoRandom(){
         if (mp3 !=null)
             mp3.release();
     }
-    public void iniciar(View v){
-        destruir();
-        mp3 = MediaPlayer.create(this, R.raw.Hello);
+    public void Start(View v){
+       NoRandom();
+        mp3 = MediaPlayer.create(this, R.raw.hello);
         mp3.start();
         String op = btnNS.getText().toString();
-        if (op.equals("no reproducir en forma circular"))
+        if (op.equals("no reproducir en forma aleatoria"))
             mp3.setLooping(false);
         else
             mp3.setLooping(true);
     }
-    public void pausar(View v) {
+    public void Pause(View v) {
         if (mp3 != null && mp3.isPlaying()) {
             position = mp3.getCurrentPosition();
             mp3.pause();
         }
     }
-    public void continuar(View v) {
+    public void Play(View v) {
         if (mp3 != null && mp3.isPlaying() == false) {
             mp3.seekTo(position);
             mp3.start();
         }
     }
-    public void detener(View v) {
+    public void Stop(View v) {
         if (mp3 != null) {
             mp3.stop();
             position = 0;
         }
     }
     public void circular(View v) {
-        detener(null);
+        Stop(null);
         String op = btnNS.getText().toString();
         if (op.equals("no reproducir en forma circular"))
             btnNS.setText("reproducir en forma circular");
