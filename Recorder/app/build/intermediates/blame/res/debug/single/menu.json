@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\proyectos\\jorjais\\Plataforma2Unidad2-master\\Recorder\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\proyectos\\jorjais\\Plataforma2Unidad2-master\\Recorder\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\proyectos\\unidad2\\Recorder\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\proyectos\\unidad2\\Recorder\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\proyectos\\Recorder\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\proyectos\\Recorder\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]
