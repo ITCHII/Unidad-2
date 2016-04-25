@@ -767,7 +767,7 @@ int layout select_dialog_multichoice_material 0x7f040030
 int layout select_dialog_singlechoice_material 0x7f040031
 int layout support_simple_spinner_dropdown_item 0x7f040032
 int menu menu_main 0x7f0d0000
-int mipmap ic_launcher 0x7f030000
+int mipmap recorder 0x7f030000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001
 int string abc_action_bar_home_subtitle_description_format 0x7f060002
